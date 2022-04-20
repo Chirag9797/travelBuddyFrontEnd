@@ -33,20 +33,20 @@ const Map = () => {
     height: "100vh"
   }
 
-  const [lat, setLat] = useState(43.653225);
-  const [lng, setLng] = useState(-79.383186);
+  const [lat, setLat] = useState(51.5072178);
+  const [lng, setLng] = useState(0.1275862);
 
   const [Lname, setLname] = useState(null);
   const [Ltitle, setLtitle] = useState(null);
 
 
 
-  const center = {
-    lat: 43.653225,
-    lng: -79.383186
-  }
+  // const center = {
+  //   lat:   ,
+  //   lng: -
+  // }
 
-
+ 
 
   const { isLoaded, loadError } = useLoadScript({
     // googleMapsApiKey:process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
